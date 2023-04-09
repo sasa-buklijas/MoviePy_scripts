@@ -1,0 +1,8 @@
+# OSX
+.DS_Store
+
+# virtual environment
+venv_*
+
+# images, sound, video, audio for testing
+tmp_assets/
