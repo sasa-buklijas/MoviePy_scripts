@@ -11,6 +11,7 @@ def main():
     if len(sys.argv) == 2:
         input_dir = Path(sys.argv[1])
     else:
+        print("Only argv is name of directory")
         exit()
 
     # just png images, from 1 to n
